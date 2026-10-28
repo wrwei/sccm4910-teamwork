@@ -16,3 +16,6 @@ if __name__ == "__main__":
     print("Hello from tommydavies-byte")  #this is a greeting from me
                                           #this is a test comment
 
+    #this is a greeting i added 
+    #it is indented in if __name__ == "__main__" and runs "Hello from sampcompsci26 as required.
+    print("Hello from sampcompsci26")
