@@ -15,5 +15,6 @@ if __name__ == "__main__":
     # --- ADD YOUR GREETING BELOW THIS LINE ---
     print("Hello from tommydavies-byte")  #this is a greeting from me
                                           #this is a test comment
+    #This is my comment and below the function will print whatever is inside the brackets
     print ("Hello from Zaki!")
 
