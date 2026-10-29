@@ -13,5 +13,5 @@ def banner():
 if __name__ == "__main__":
     banner()
     # --- ADD YOUR GREETING BELOW THIS LINE ---
-    print("Hello from Vsevolod")          #this is a greeing from Vsevolod for lab assignment
+    print("Rip everyone who chose wrong destionation")          #this is a greeing from Vsevolod for lab assignment
 
