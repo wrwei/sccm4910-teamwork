@@ -4,7 +4,11 @@ Each student adds ONE greeting line below the marker, on their own branch,
 then opens a pull request against their own fork's main branch.
 Review the change with a partner before merging it.
 """
-print("Hellofrom USERNAME")
+"""
+This prgrom so far outputs a simple print statement
+
+"""
+print("Hello from USERNAME")
 
 def banner():
     print("=== SCCM4910 team greetings ===")
