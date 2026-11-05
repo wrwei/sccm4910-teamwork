@@ -19,6 +19,32 @@ and record feedback in your notes, or exchange reviews with a willing
 partner. Your PR targets your fork's main. Set your Git identity locally
 in the new clone, as Task 1 shows.
 
+### Open the PR in your own fork
+
+In your fork, choose **Pull requests > New pull request**. GitHub may still
+suggest `wrwei/sccm4910-teamwork` as the base repository. Before creating the
+PR, check these four fields (replace `USERNAME` with your GitHub username):
+
+| Field | Required value |
+| --- | --- |
+| Base repository | `USERNAME/sccm4910-teamwork` |
+| Base branch | `main` |
+| Head repository | `USERNAME/sccm4910-teamwork` |
+| Compare branch | `add-USERNAME-greeting` |
+
+Choose **compare across forks** if the repository selectors are hidden.
+Both repository owners must be your account. You can open the comparison
+directly by replacing both occurrences of `USERNAME` in this URL:
+
+```text
+https://github.com/USERNAME/sccm4910-teamwork/compare/main...add-USERNAME-greeting?quick_pull=1
+```
+
+If you already opened a PR against `wrwei/sccm4910-teamwork`, close it and
+create a new PR in your fork. Your branch and commits are still there.
+
+### Offline backup and local work
+
 The ZIP is an optional offline backup. If GitHub is unavailable, extract
 it and follow Task 1's local setup. Practise with local branches and review
 notes, then complete the online fork/PR steps with a demonstrator when
